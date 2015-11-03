@@ -1,0 +1,26 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+    <a class="sidebar-nav-item" href="/announcements">Announcements</a>
+    <a class="sidebar-nav-item" href="/documentation">Documentation</a>
+    <a class="sidebar-nav-item" href="/support">Support</a>
+    <a class="sidebar-nav-item" href="{{ site.data.github.repo }}/releases">Releases</a>
+    <a class="sidebar-nav-item" href="{{ site.data.github.repo }}">GitHub</a>
+    <span class="sidebar-nav-item"><a href="http://nuget.org/packages/Fluent.Ribbon"><img src="https://img.shields.io/nuget/vpre/Fluent.Ribbon.svg?style=flat-square" alt="Nuget"></a></span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    </p>
+  </div>
+</div>
