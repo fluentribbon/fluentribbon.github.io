@@ -22,7 +22,6 @@ As is with any open source project there are many other contributors, you can se
 
 ## Sponsors
 These companies have kindly donated time so that some of the above developers can work on extending and supporting {{ site.data.project.name }}.
-[![Nuget](https://img.shields.io/nuget/vpre/Fluent.Ribbon.svg?style=flat-square)](http://nuget.org/packages/Fluent.Ribbon)
 
 [nuget]: http://www.nuget.org/packages/Fluent.Ribbon
 [docs]: /documentation
