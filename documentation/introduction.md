@@ -3,7 +3,7 @@ layout: page
 title: Introduction
 ---
 
-luent Ribbon Control Suite is a library that implements Microsoft® Office Fluent™ user interface for the Windows Presentation Foundation (WPF).
+Fluent Ribbon Control Suite is a library that implements Microsoft® Office Fluent™ user interface for the Windows Presentation Foundation (WPF).
 
 ### Ribbon control
 
