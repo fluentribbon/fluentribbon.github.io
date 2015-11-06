@@ -7,6 +7,6 @@ title: Documentation
     - [Introduction](./introduction)
     - [Obtain and Build the Code](./build)
     - [Nuget](./nuget)
-- Ab ovo usque ad mala
+- From A to Z
     - [Basic Setup](./basicsetup)
     - [Backstage](./backstage)
