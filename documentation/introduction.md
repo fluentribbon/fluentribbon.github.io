@@ -9,7 +9,7 @@ Fluent Ribbon Control Suite is a library that implements Microsoft® Office Flue
 
 What is a ribbon? A ribbon is a control which consists of several tabs, grouped by functionality to represent the menu actions of a software programme.
 
-![Ribbon overview](/public/images/fluent ribbon control overview.png)
+![Ribbon overview](/public/images/documentation/fluent%20ribbon%20control%20overview.png)
 
 Basic elements of a Ribbon:
 - Ribbon Tabs
