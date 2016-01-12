@@ -5,8 +5,11 @@ title: Documentation
 
 - Getting Started
     - [Introduction](./introduction)
-    - [Obtain and Build the Code](./build)
-    - [Nuget](./nuget)
-- From A to Z
     - [Basic Setup](./basicsetup)
-    - [Backstage](./backstage)
+    - [Themes](./themes)
+    
+- Controls
+    - [Start screen](./controls/startscreen)
+    - Menus   
+        - [Backstage](./controls/backstage)
+        - [Application menu](./controls/applicationmenu)
