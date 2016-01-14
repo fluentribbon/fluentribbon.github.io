@@ -5,11 +5,11 @@ title: Documentation
 
 - Getting Started
     - [Introduction](./introduction)
-    - [Basic Setup](./basicsetup)
+    - [Basic setup](./basic-setup)
     - [Themes](./themes)
     
 - Controls
-    - [Start screen](./controls/startscreen)
+    - [Start screen](./controls/start-screen)
     - Menus   
         - [Backstage](./controls/backstage)
-        - [Application menu](./controls/applicationmenu)
+        - [Application menu](./controls/application-menu)
