@@ -26,6 +26,19 @@
         </div>
       </div>
 
+    <ol class="breadcrumb" role="menubar" aria-label="breadcrumb">
+        <li><a href="/">Home</a></li>
+        {% assign crumbs = page.url | replace:site.url,'' | replace:'/index.html','' | split: '/' %}
+        {% if crumbs.size > 1 %}
+            {% for crumb in crumbs offset: 1 %}
+                {% assign currentTitle = crumb | capitalize | replace:'-',' ' | remove:'.html' %}
+                <li>
+                    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ currentTitle }}</a>
+                </li>
+            {% endfor %}
+        {% endif %}
+    </ol>
+
       <div class="container content">
         {{ content }}
       </div>

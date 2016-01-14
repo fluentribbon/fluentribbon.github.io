@@ -1,0 +1,11 @@
+.breadcrumb {  list-style: none; }
+
+.breadcrumb > li { display: inline-block; }
+
+.breadcrumb > li + li:before { padding: 0 5px; }
+
+.breadcrumb { border: 0px; display: block; }
+
+.breadcrumb li { font-size: 14px; }
+
+.breadcrumb > li + li:before { content: "\003E\00a0"; }
