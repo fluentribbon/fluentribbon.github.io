@@ -14,6 +14,3 @@ title: Fluent.Ribbon
 tagline: ''
 description: ''
 url: http://fluentribbon.github.io
-
-paginate: 5
-paginate_path: '/announcements/:num'
