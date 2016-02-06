@@ -4,7 +4,7 @@
 
 .breadcrumb > li + li:before { padding: 0 5px; }
 
-.breadcrumb { border: 0px; display: block; }
+.breadcrumb { border: 0px; display: block; margin-bottom: 0; }
 
 .breadcrumb li { font-size: 14px; }
 
