@@ -92,8 +92,8 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
+  padding-top:    0.5rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid #eee;
 }
 .masthead-title {
@@ -203,11 +203,11 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top:  1rem;
-  left: 1rem;
+  top:  0.5rem;
+  left: 0rem;
   display: block;
   width: 2.2rem;
-  padding: .5rem .65rem;
+  padding: .5rem .5rem;
   color: #505050;
   background-color: #fff;
   border-radius: 4px;

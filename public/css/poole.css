@@ -273,7 +273,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-  padding-top:    1rem;
+  padding-top:    0.5rem;
   padding-bottom: 1rem;
 }
 .masthead-title {

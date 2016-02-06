@@ -1,4 +1,4 @@
-.breadcrumb {  list-style: none; }
+.breadcrumb {  list-style: none; padding-left: 0.5rem; }
 
 .breadcrumb > li { display: inline-block; }
 
