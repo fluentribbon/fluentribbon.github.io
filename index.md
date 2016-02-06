@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 published: true
 ---
 
@@ -20,7 +21,7 @@ The core contributors to {{ site.data.project.name }} are:
 {% for member in site.data.members %}
  - [{{ member.name }}]({{ member.url }}) - {{ member.description }}
 {% endfor %}
-As is with any open source project there are many other contributors, you can see a full list on the [GitHub][contributors]. Apologies if your name was lost during the move between version control systems.
+As is with any open source project there are many other contributors, you can see a full list on the [GitHub][contributors].
 
 [license]: {{ site.data.github.repo }}/master/License.txt
 [github]: {{ site.data.github.repo }}
