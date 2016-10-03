@@ -6,10 +6,10 @@ title: Documentation
 - Getting Started
     - [Introduction](./introduction)
     - [Basic setup](./basic-setup)
-    - [Themes](./themes)
     
 - Controls
     - [Start screen](./controls/start-screen)
+    - [StatusBar](./controls/statusbar-and-statusbaritem)
     - Menus   
         - [Backstage](./controls/backstage)
         - [Application menu](./controls/application-menu)
