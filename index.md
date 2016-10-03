@@ -14,14 +14,14 @@ To be written...
 The quickest way to get started is down grab the latest package from [Nuget][nuget] and browse the [documentation][docs]. If you're running into trouble checkout our [support](#support) section.
 
 ## Support<a name="support"></a>
-Basic support is provided on [gitter][gitter]. If you find a bug, want to request a feature or submit a full request then use the [issues list][issues].
+Basic support is provided on [gitter][gitter]. If you find a bug, want to request a feature or submit a pull request then use the [issues list][issues].
 
 ## Who's Behind It
 The core contributors to {{ site.data.project.name }} are:
 {% for member in site.data.members %}
  - [{{ member.name }}]({{ member.url }}) - {{ member.description }}
 {% endfor %}
-As is with any open source project there are many other contributors, you can see a full list on the [GitHub][contributors].
+As is with any open source project there are other contributors, you can see a full list on [GitHub][contributors].
 
 [license]: {{ site.data.github.repo }}/master/License.txt
 [github]: {{ site.data.github.repo }}
