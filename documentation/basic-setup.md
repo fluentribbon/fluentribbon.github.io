@@ -7,7 +7,7 @@ To setup the required resources you first have to add the following code to your
 
 ```
 <Application.Resources>
-    <!--Attach Default Fluent Control's Theme-->
+    <!-- Attach default Theme -->
     <ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Generic.xaml" />
 </Application.Resources>
 ```
