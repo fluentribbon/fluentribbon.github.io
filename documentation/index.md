@@ -6,7 +6,10 @@ title: Documentation
 - Getting Started
     - [Introduction](./introduction)
     - [Basic setup](./basic-setup)
-    
+
+- Concepts
+    - [Resizing](./concepts/resizing)
+
 - Controls
     - [KeyTip](./controls/keytip)
     - [Start screen](./controls/start-screen)
