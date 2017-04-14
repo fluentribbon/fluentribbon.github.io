@@ -23,8 +23,12 @@ If you happen to choose different names you have to adjust the names "MyFirstRib
                      xmlns:Fluent="urn:fluent-ribbon"
                      Title="My first RibbonWindow" 
                      Width="800" 
-                     Height="600" >
+                     Height="600">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
     </Grid>
 </Fluent:RibbonWindow>
 ```
@@ -50,10 +54,10 @@ namespace MyFirstRibbonProject
 }
 ```
 
-Now that you have setup the window you can start adding the ribbon itself:
+Now that you have setup the window you can start adding the ribbon itself to the previously created `Grid`:
 
 ```
-<Fluent:Ribbon>
+<Fluent:Ribbon Grid.Row="0">
     <!--Backstage-->
     <Fluent:Ribbon.Menu>
         <Fluent:Backstage>
@@ -73,3 +77,47 @@ Now that you have setup the window you can start adding the ribbon itself:
     </Fluent:RibbonTabItem>
 </Fluent:Ribbon>
 ```
+
+The complete XAML code for your first window should then look like this:
+```
+<Fluent:RibbonWindow x:Class="MyFirstRibbonProject.MyFirstWindow"
+                     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:Fluent="urn:fluent-ribbon"
+                     Title="My first RibbonWindow" 
+                     Width="800" 
+                     Height="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Fluent:Ribbon Grid.Row="0">
+            <!--Backstage-->
+            <Fluent:Ribbon.Menu>
+                <Fluent:Backstage>
+                </Fluent:Backstage>
+            </Fluent:Ribbon.Menu>
+            
+            <!--Tabs-->
+            <Fluent:RibbonTabItem Header="Home">
+                <Fluent:RibbonGroupBox Header="Group">
+                    <Fluent:Button Header="Green"
+                                Icon="Images\Green.png"
+                                LargeIcon="Images\GreenLarge.png" />
+                    <Fluent:Button Header="Grey" 
+                                Icon="Images\Gray.png"
+                                LargeIcon="Images\GrayLarge.png" />
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+        </Fluent:Ribbon>
+
+        <Grid Grid.Row="1">
+        <TextBlock>My first window containing a Ribbon and something else.</TextBlock>
+        </Grid>
+    </Grid>
+</Fluent:RibbonWindow>
+```
+
+Continue adding content to the [Backstage](./controls/backstage).
