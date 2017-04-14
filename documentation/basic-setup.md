@@ -114,7 +114,7 @@ The complete XAML code for your first window should then look like this:
         </Fluent:Ribbon>
 
         <Grid Grid.Row="1">
-        <TextBlock>My first window containing a Ribbon and something else.</TextBlock>
+            <TextBlock>My first window containing a Ribbon and something else.</TextBlock>
         </Grid>
     </Grid>
 </Fluent:RibbonWindow>
