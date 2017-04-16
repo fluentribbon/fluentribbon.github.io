@@ -11,9 +11,9 @@ Let's fill the backstage with items:
 <Fluent:Ribbon.Menu>
     <Fluent:Backstage>
         <Fluent:BackstageTabControl>
-            <Fluent:BackstageTabItem Header="New"/>
-            <Fluent:BackstageTabItem Header="Print"/>
-            <Fluent:Button Header="Blue" Icon="Images\Blue.png"/>
+            <Fluent:BackstageTabItem Header="New" />
+            <Fluent:BackstageTabItem Header="Print" />
+            <Fluent:Button Header="Blue" />
         </Fluent:BackstageTabControl>
     </Fluent:Backstage>
 </Fluent:Ribbon.Menu>
