@@ -14,7 +14,8 @@ You can add pinned _Quick Access Items_ named `QuickAccessMenuItem` to the colle
     <Fluent:QuickAccessMenuItem IsChecked="true">
         <Fluent:Button Header="Pink" Icon="Images\Pink.png" />
     </Fluent:QuickAccessMenuItem>
+    
     <!--You Can Just Bind with Any Control-->
-    <Fluent:QuickAccessMenuItem Target="{Binding ElementName=buttonGreen}"/>
+    <Fluent:QuickAccessMenuItem Target="{Binding ElementName=buttonGreen}" />
 </Fluent:Ribbon.QuickAccessItems>
 ```

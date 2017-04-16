@@ -8,8 +8,11 @@ A contextual tab is visible when a particular object in an app is selected. Cont
 ```xaml
 <!--Contextual Tab Groups-->
 <Fluent:Ribbon.ContextualGroups>
-    <Fluent:RibbonContextualTabGroup Header="Tools" Visibility="Visible"
-        x:Name="toolsGroup" Background="Green" BorderBrush="Green" />
+    <Fluent:RibbonContextualTabGroup x:Name="toolsGroup"
+                                     Header="Tools" 
+                                     Visibility="Visible"
+                                     Background="Green" 
+                                     BorderBrush="Green" />
 </Fluent:Ribbon.ContextualGroups>
 ```
 
@@ -17,7 +20,7 @@ And associate a tab to this group:
 
 ```xaml
 <!--Contextual Tabs-->
-<Fluent:RibbonTabItem Header="CT" Group="{Binding ElementName=toolsGroup}"/>
+<Fluent:RibbonTabItem Header="CT" Group="{Binding ElementName=toolsGroup}" />
 ```
 
 `RibbonContextualTabGroup` is not visible by default. To show or hide a contextual tab you must set the `RibbonContextualTabGroup.Visibility` property to `Visible` or `Collapsed`.

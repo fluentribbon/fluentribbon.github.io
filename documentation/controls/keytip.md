@@ -51,7 +51,7 @@ Property                    | Description
                    Fluent:KeyTip.AutoPlacement="False"
                    Fluent:KeyTip.HorizontalAlignment="Center"
                    Fluent:KeyTip.VerticalAlignment="Top"
-                   Fluent:KeyTip.Keys="T"/>
+                   Fluent:KeyTip.Keys="T" />
 </Fluent:RibbonGroupBox>
 ```
 
@@ -66,7 +66,7 @@ To use screen tips you have to create a `Fluent.ScreenTip` instance and set the 
                           HelpTopic="Help for Gray ScreenTip"
                           Image="Images\GrayLarge.png"
                           Text="This ScreenTip is ribbon aligned. &#x0a;
-                                It has the image and handles F1."/>
+                                It has the image and handles F1." />
     </Fluent:Button.ToolTip>
 </Fluent:Button>
 ```
@@ -111,7 +111,7 @@ Moreover you can set text which should be shown when the target control is disab
                           Text="This control is disabled and has fixed width 250px"
                           HelpTopic="Help for Orange ScreenTip"
                           DisableReason="This control is disabled
-                                         to show 'disable reason' section"/>
+                                         to show 'disable reason' section" />
     </Fluent:Button.ToolTip>
 </Fluent:Button>
 ```

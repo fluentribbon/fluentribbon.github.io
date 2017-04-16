@@ -12,7 +12,7 @@ Below is a small sample:
     <!--Backstage-->
     <Fluent:Ribbon.Menu>
         <Fluent:Backstage>
-            <Fluent:Backstage /
+            <Fluent:Backstage />
         </Fluent:Backstage>
     </Fluent:Ribbon.Menu>
     <!--Tabs-->
