@@ -46,7 +46,7 @@ namespace MyFirstRibbonProject
         /// <summary>
         /// Default constructor
         /// </summary>
-        public Window()
+        public MyFirstWindow()
         {
             this.InitializeComponent();
         }
