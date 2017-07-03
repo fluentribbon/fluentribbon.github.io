@@ -20,3 +20,5 @@ title: Documentation
         - [Start screen](./controls/start-screen)
         - [Backstage](./controls/backstage)
         - [Application menu](./controls/application-menu)
+
+- [Styles](./styles)
