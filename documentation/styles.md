@@ -211,3 +211,6 @@ public partial class App : Application
 
 It is also possible to create an accent resource dictionary dynamically by using a specific color.
 To do so you can have a look at the "Styles" tab in the showcase application or at [ThemeHelper](https://github.com/fluentribbon/Fluent.Ribbon/blob/develop/Fluent.Ribbon.Showcase/Helpers/ThemeHelper.cs).
+
+
+`ThemeManager` and this documentation is based on the work from [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) and [Styles](http://mahapps.com/guides/styles.html).
