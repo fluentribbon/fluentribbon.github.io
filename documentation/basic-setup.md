@@ -68,11 +68,11 @@ Now that you have setup the window you can start adding the ribbon itself to the
     <Fluent:RibbonTabItem Header="Home">
         <Fluent:RibbonGroupBox Header="Group">
             <Fluent:Button Header="Green"
-                           Icon="Images\Green.png"
-                           LargeIcon="Images\GreenLarge.png" />
+                           Icon="Resource-Path to your small icon for this button"
+                           LargeIcon="Resource-Path to your large icon for this button" />
             <Fluent:Button Header="Grey" 
-                           Icon="Images\Gray.png"
-                           LargeIcon="Images\GrayLarge.png" />
+                           Icon="Resource-Path to your small icon for this button"
+                           LargeIcon="Resource-Path to your large icon for this button" />
         </Fluent:RibbonGroupBox>
     </Fluent:RibbonTabItem>
 </Fluent:Ribbon>
@@ -104,11 +104,11 @@ The complete XAML code for your first window should then look like this:
             <Fluent:RibbonTabItem Header="Home">
                 <Fluent:RibbonGroupBox Header="Group">
                     <Fluent:Button Header="Green"
-                                Icon="Images\Green.png"
-                                LargeIcon="Images\GreenLarge.png" />
+                                Icon="Resource-Path to your small icon for this button"
+                                LargeIcon="Resource-Path to your large icon for this button" />
                     <Fluent:Button Header="Grey" 
-                                Icon="Images\Gray.png"
-                                LargeIcon="Images\GrayLarge.png" />
+                                Icon="Resource-Path to your small icon for this button"
+                                LargeIcon="Resource-Path to your large icon for this button" />
                 </Fluent:RibbonGroupBox>
             </Fluent:RibbonTabItem>
         </Fluent:Ribbon>
