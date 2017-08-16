@@ -45,10 +45,10 @@ For example, if you set `SizeDefinition = "Middle, Middle, Small"`, that means:
         <Fluent:Button SizeDefinition="Large" .../>
     </Fluent:RibbonGroupBox>
     <Fluent:RibbonGroupBox Name="Other" Header="Other">
-        <Fluent:Button SizeDefinition="Large, Large, Large" Icon="Images\Green.png" ... />
-        <Fluent:Button SizeDefinition="Large, Large, Small" Icon="Images\Gray.png" ... />
-        <Fluent:Button SizeDefinition="Middle, Small, Small" Icon="Images\Yellow.png" ... />
-        <Fluent:Button SizeDefinition="Middle, Small, Small" Icon="Images\Brown.png" ... />
+        <Fluent:Button SizeDefinition="Large, Large, Large" Icon="Resource-Path to your small icon for this button" ... />
+        <Fluent:Button SizeDefinition="Large, Large, Small" Icon="Resource-Path to your small icon for this button" ... />
+        <Fluent:Button SizeDefinition="Middle, Small, Small" Icon="Resource-Path to your small icon for this button" ... />
+        <Fluent:Button SizeDefinition="Middle, Small, Small" Icon="Resource-Path to your small icon for this button" ... />
     </Fluent:RibbonGroupBox>
 </Fluent:RibbonTabItem>
 ```

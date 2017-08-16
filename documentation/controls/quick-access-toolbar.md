@@ -12,7 +12,7 @@ You can add pinned _Quick Access Items_ named `QuickAccessMenuItem` to the colle
 <Fluent:Ribbon.QuickAccessItems>
     <!--Use Content or Target Property to set QAT item-->
     <Fluent:QuickAccessMenuItem IsChecked="true">
-        <Fluent:Button Header="Pink" Icon="Images\Pink.png" />
+        <Fluent:Button Header="Pink" Icon="Resource-Path to your small icon for this button" />
     </Fluent:QuickAccessMenuItem>
     
     <!--You Can Just Bind with Any Control-->

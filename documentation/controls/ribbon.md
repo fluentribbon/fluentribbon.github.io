@@ -20,12 +20,12 @@ Below is a small sample:
         <Fluent:RibbonGroupBox Header="Group">
             <Fluent:Button Name="buttonGreen" 
                            Header="Green"
-                           Icon="Images\Green.png"
-                           LargeIcon="Images\GreenLarge.png" />
+                           Icon="Resource-Path to your small icon for this button"
+                           LargeIcon="Resource-Path to your large icon for this button" />
             <Fluent:Button Name="buttonGray" 
                            Header="Grey" 
-                           Icon="Images\Gray.png"
-                           LargeIcon="Images\GrayLarge.png" />
+                           Icon="Resource-Path to your small icon for this button"
+                           LargeIcon="Resource-Path to your large icon for this button" />
         </Fluent:RibbonGroupBox>
     </Fluent:RibbonTabItem>
 </Fluent:Ribbon>

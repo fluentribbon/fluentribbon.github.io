@@ -37,17 +37,17 @@ Property                    | Description
 
 ```xaml
 <Fluent:RibbonGroupBox Header="Group">
-    <Fluent:Button Text="Center" LargeIcon="Images\GreenLarge.png"
+    <Fluent:Button Text="Center"
                    Fluent:KeyTip.AutoPlacement="False"
                    Fluent:KeyTip.HorizontalAlignment="Center"
                    Fluent:KeyTip.VerticalAlignment="Center"
                    Fluent:KeyTip.Keys="C" />
-    <Fluent:Button Text="Left" LargeIcon="Images\GrayLarge.png"
+    <Fluent:Button Text="Left"
                    Fluent:KeyTip.AutoPlacement="False"
                    Fluent:KeyTip.HorizontalAlignment="Left"
                    Fluent:KeyTip.VerticalAlignment="Center"
                    Fluent:KeyTip.Keys="L" />
-    <Fluent:Button Text="Top" LargeIcon="Images\YellowLarge.png"
+    <Fluent:Button Text="Top"
                    Fluent:KeyTip.AutoPlacement="False"
                    Fluent:KeyTip.HorizontalAlignment="Center"
                    Fluent:KeyTip.VerticalAlignment="Top"
@@ -64,7 +64,7 @@ To use screen tips you have to create a `Fluent.ScreenTip` instance and set the 
     <Fluent:Button.ToolTip>
         <Fluent:ScreenTip Title="Gray"
                           HelpTopic="Help for Gray ScreenTip"
-                          Image="Images\GrayLarge.png"
+                          Image="Resource-Path to your large icon for this button"
                           Text="This ScreenTip is ribbon aligned. &#x0a;
                                 It has the image and handles F1." />
     </Fluent:Button.ToolTip>
@@ -107,7 +107,7 @@ Moreover you can set text which should be shown when the target control is disab
 <Fluent:Button IsEnabled="False" ... >
     <Fluent:Button.ToolTip>
         <Fluent:ScreenTip Title="Orange" Width ="250"
-                          Image="Images\OrangeLarge.png"
+                          Image="Resource-Path to your large icon for this button"
                           Text="This control is disabled and has fixed width 250px"
                           HelpTopic="Help for Orange ScreenTip"
                           DisableReason="This control is disabled
