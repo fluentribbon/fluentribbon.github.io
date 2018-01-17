@@ -18,6 +18,6 @@ kramdown:
 
 highligther: rouge
 
-gems:
+plugins:
    - jekyll-coffeescript
    - jekyll-paginate
