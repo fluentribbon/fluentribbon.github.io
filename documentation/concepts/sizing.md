@@ -1,7 +1,13 @@
 ---
 layout: page
-title: Resizing
+title: Sizing
 ---
+
+### Table of Contents
+- [Defining sizing behavior](#sizingBehavior)
+- [Aligning controls](#aligningControls)
+
+### Defining sizing behavior {#sizingBehavior}
 
 A `RibbonGroupBox` can be in one of four states:
 
@@ -51,4 +57,24 @@ For example, if you set `SizeDefinition = "Middle, Middle, Small"`, that means:
         <Fluent:Button SizeDefinition="Middle, Small, Small" Icon="Resource-Path to your small icon for this button" ... />
     </Fluent:RibbonGroupBox>
 </Fluent:RibbonTabItem>
+```
+
+### Aligning controls {#aligningControls}
+
+> This feature is available starting with Version 6.0.
+
+You can opt in to align the headers of controls like `ComboBox` or `Spinner` which are placed in the same column of a `RibbonGroupBox` by adding `Grid.IsSharedSizeScope="True"` to a `RibbonGroupBox`.
+You can opt out of this behavior for single controls in that column by adding `Fluent:RibbonGroupBoxWrapPanel.ExcludeFromSharedSize="True"` to that control.
+
+```xaml
+<Fluent:RibbonGroupBox Header="SharedSizeScope"
+                       Grid.IsSharedSizeScope="True">
+    <Fluent:ComboBox Header="My header" />
+    <Fluent:ComboBox Header="My short header" />
+    <Fluent:Spinner Header="My long long header" />
+
+    <Fluent:ComboBox Header="Excluded from size sharing" Fluent:RibbonGroupBoxWrapPanel.ExcludeFromSharedSize="True" />
+    <Fluent:Spinner Header="My short header" />
+    <Fluent:ComboBox Header="My long long header" />
+</Fluent:RibbonGroupBox>
 ```

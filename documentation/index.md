@@ -8,7 +8,7 @@ title: Documentation
     - [Basic setup](./basic-setup)
 
 - Concepts
-    - [Resizing](./concepts/resizing)
+    - [Sizing of controls](./concepts/sizing)
     - [Contextual Tabs](./concepts/contextual-tabs)
 
 - Controls
