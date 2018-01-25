@@ -70,7 +70,7 @@ You can opt out of this behavior for single controls in that column by adding `F
 <Fluent:RibbonGroupBox Header="SharedSizeScope"
                        Grid.IsSharedSizeScope="True">
     <Fluent:ComboBox Header="My header" />
-    <Fluent:ComboBox Header="My short header" />
+    <Fluent:TextBox Header="My short header" />
     <Fluent:Spinner Header="My long long header" />
 
     <Fluent:ComboBox Header="Excluded from size sharing" Fluent:RibbonGroupBoxWrapPanel.ExcludeFromSharedSize="True" />
