@@ -12,6 +12,8 @@ title: Styles
 
 ### Overview {#overview}
 
+> This feature is available starting with Version 6.0.
+
 This guide will introduce you to the many accents and themes that `Fluent.Ribbon` has and how to create your own.
 
 All of `Fluent.Ribbon`'s accents and themes are contained within separate resource dictionaries **(Make sure that all file names are spelled correct. They are Case Sensitive!).**
