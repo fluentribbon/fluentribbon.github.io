@@ -9,6 +9,8 @@ title: Styles
 - [How to change the current theme... via ThemeManager](#thememanager)
 - [How to change the current theme... On a Window different to your Application's MainPage](#window)
 - [Creating Custom Accents and Themes](#custom)
+- [Aligning `AppTheme` with the current "app mode" setting from windows](#appmode)
+- [Credits](#credits)
 
 ### Overview {#overview}
 
@@ -214,5 +216,28 @@ public partial class App : Application
 It is also possible to create an accent resource dictionary dynamically by using a specific color.
 To do so you can have a look at the "Styles" tab in the showcase application or at [ThemeHelper](https://github.com/fluentribbon/Fluent.Ribbon/blob/develop/Fluent.Ribbon.Showcase/Helpers/ThemeHelper.cs).
 
+## Aligning `AppTheme` with the current "app mode" setting from windows {#appmode}
+> This feature is available starting with Version 6.1.
+
+You can use `ThemeManager.AlignAppThemeWithWindowsAppModeSetting` to align the `AppTheme` once.  
+You can use `ThemeManager.IsWindowsAppModeSettingDetectionEnabled` to align the `AppTheme` automatically when the Windows setting is changed during runtime.
+
+Usage sample:
+
+```csharp
+public partial class App : Application
+{
+    /// <inheritdoc />
+    protected override void OnStartup(StartupEventArgs e)
+    {
+        ThemeManager.IsWindowsAppModeSettingDetectionEnabled = true;
+        ThemeManager.AlignAppThemeWithWindowsAppModeSetting();
+
+        base.OnStartup(e);
+    }
+}
+```
+
+## Credits {#credits}
 
 `ThemeManager` and this documentation is based on the work from [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) and [Styles](http://mahapps.com/guides/styles.html).
