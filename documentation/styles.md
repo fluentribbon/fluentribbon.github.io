@@ -219,8 +219,8 @@ To do so you can have a look at the "Styles" tab in the showcase application or 
 ## Aligning `AppTheme` with the current "app mode" setting from windows {#appmode}
 > This feature is available starting with Version 6.1.
 
-You can use `ThemeManager.AlignAppThemeWithWindowsAppModeSetting` to align the `AppTheme` once.  
-You can use `ThemeManager.IsWindowsAppModeSettingDetectionEnabled` to align the `AppTheme` automatically when the Windows setting is changed during runtime.
+You can use `ThemeManager.SyncAppThemeWithWindowsAppModeSetting` to align the `AppTheme` once.  
+You can use `ThemeManager.IsAutomaticWindowsAppModeSettingSyncEnabled` to align the `AppTheme` automatically when the Windows setting is changed during runtime.
 
 Usage sample:
 
@@ -230,8 +230,8 @@ public partial class App : Application
     /// <inheritdoc />
     protected override void OnStartup(StartupEventArgs e)
     {
-        ThemeManager.IsWindowsAppModeSettingDetectionEnabled = true;
-        ThemeManager.AlignAppThemeWithWindowsAppModeSetting();
+        ThemeManager.IsAutomaticWindowsAppModeSettingSyncEnabled = true;
+        ThemeManager.SyncAppThemeWithWindowsAppModeSetting();
 
         base.OnStartup(e);
     }
