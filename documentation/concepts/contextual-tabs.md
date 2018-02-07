@@ -24,3 +24,5 @@ And associate a tab to this group:
 ```
 
 `RibbonContextualTabGroup` is not visible by default. To show or hide a contextual tab you must set the `RibbonContextualTabGroup.Visibility` property to `Visible` or `Collapsed`.
+
+Upgrade note: In Fluent.Ribbon version 3.6.1.236 the value `Hidden` was accepted. For version 6.0.x only `Collapsed` is accepted.
