@@ -23,4 +23,7 @@ And associate a tab to this group:
 <Fluent:RibbonTabItem Header="CT" Group="{Binding Source={x:Reference toolsGroup}}"/>
 ```
 
-`RibbonContextualTabGroup` is not visible by default. To show or hide a contextual tab you must set the `RibbonContextualTabGroup.Visibility` property to `Visible` or `Collapsed`.
+`RibbonContextualTabGroup` is not visible by default. 
+To show you must set `RibbonContextualTabGroup.Visibility` property to `Visible`.
+To hide you must set `RibbonContextualTabGroup.Visibility` property to `Collapsed`.
+`Hidden` is not supported a supported value for `RibbonContextualTabGroup.Visibility`.
