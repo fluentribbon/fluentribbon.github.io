@@ -23,9 +23,9 @@ If you want to ignore the threads current ui culture you can set the current loc
 ### Supported localizations {#supported_localizations}
 *   Arabic
 *   Azerbaijani
+*   Bulgarian
 *   Catalan
 *   Chinese
-*   Chinese (Traditional)
 *   Czech
 *   Danish
 *   Dutch
@@ -41,13 +41,15 @@ If you want to ignore the threads current ui culture you can set the current loc
 *   Japanese
 *   Korean
 *   Lithuanian
-*   Norwegia
-*   Russian
+*   Norwegian
+*   Norwegian (Bokmål)
+*   Norwegian (Nynorsk)
 *   Persian
 *   Polish
 *   Portuguese
-*   Portuguese (Brazilian)
+*   Portuguese (Brazil)
 *   Romanian
+*   Russian
 *   Sinhala
 *   Slovak
 *   Slovenian
