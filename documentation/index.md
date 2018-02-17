@@ -10,6 +10,7 @@ title: Documentation
 - Concepts
     - [Sizing of controls](./concepts/sizing)
     - [Contextual Tabs](./concepts/contextual-tabs)
+    - [Localization](./concepts/localization)
 
 - Controls
     - [KeyTip](./controls/keytip)
