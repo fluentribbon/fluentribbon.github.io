@@ -16,6 +16,7 @@ title: Documentation
     - [KeyTip](./controls/keytip)
     - [Quick Access Toolbar](./controls/quick-access-toolbar)
     - [Ribbon](./controls/ribbon)
+    - [RibbonGroupBox](./controls/ribbon-group-box)
     - [StatusBar](./controls/statusbar-and-statusbaritem)
     - Menus   
         - [Start screen](./controls/start-screen)
