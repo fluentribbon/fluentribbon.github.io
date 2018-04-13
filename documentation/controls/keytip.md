@@ -4,7 +4,7 @@ title: KeyTip
 ---
 
 Key tips provide users accessibility to the Ribbon using the keyboard.
-To start the process the user must press `Alt` or `F10`.
+To start the process the user must press one of the key tip keys. Per default these are `Space`, `Alt` or `F10`.
 `KeyTips` are shown over controls.
 
 To make key tips work, it is enough to set the attached property `Fluent:KeyTip.Keys` to the target control,
@@ -53,6 +53,13 @@ Property                    | Description
                    Fluent:KeyTip.VerticalAlignment="Top"
                    Fluent:KeyTip.Keys="T" />
 </Fluent:RibbonGroupBox>
+```
+
+To customize the keys the user has to press to activate the key tips you can simply define a list of keys
+in the `KeyTipKeys` property of the `Ribbon`.
+
+```xaml
+<Fluent:Ribbon KeyTipKeys="F10, F9">
 ```
 
 ## Screen Tips
