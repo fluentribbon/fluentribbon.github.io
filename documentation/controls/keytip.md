@@ -55,6 +55,10 @@ Property                    | Description
 </Fluent:RibbonGroupBox>
 ```
 
+### Customize key tip keys
+
+> This feature is available starting with Version 7.0.
+
 To customize the keys the user has to press to activate the key tips you can simply define a list of keys
 in the `KeyTipKeys` property of the `Ribbon`.
 
