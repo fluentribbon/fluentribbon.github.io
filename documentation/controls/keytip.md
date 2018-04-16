@@ -4,7 +4,7 @@ title: KeyTip
 ---
 
 Key tips provide users accessibility to the Ribbon using the keyboard.
-To start the process the user must press one of the key tip keys. Per default these are `Space`, `Alt` or `F10`.
+To start the process the user must press one of the key tip keys. Per default these are `Alt` or `F10`.
 `KeyTips` are shown over controls.
 
 To make key tips work, it is enough to set the attached property `Fluent:KeyTip.Keys` to the target control,
