@@ -62,17 +62,17 @@ Property                    | Description
 To customize the keys the user can use to activate the key tips you simply have to define a list of `KeyGestures` in the `KeyTipKeys` property of the `Ribbon`. 
 
 ```xaml
-<Fluent:Ribbon KeyTipKeys="F10, F9">
+<Fluent:Ribbon>
     <Fluent:Ribbon.KeyTipKeys>
-        <KeyGesture>Alt+K</KeyGesture>
-        <KeyGesture>F10</KeyGesture>
+        <Key>F9</Key>
+        <Key>F10</Key>
     </Fluent:Ribbon.KeyTipKeys>
 </Fluent:Ribbon>
 ```
 
-If you don't define custom keys the default keys will be used (`Alt` or `F10`).
+If you do not define custom keys the default keys will be used (`Alt` or `F10`).
 
-> The gesture `Shift+F10` is a reserved gesture and cannot be used for `KeyTipKeys`.
+> The gesture `Shift+F10` is a reserved gesture to open the context menu and will not be handled to show key tips.
 
 ## Screen Tips
 
