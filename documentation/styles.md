@@ -240,4 +240,4 @@ public partial class App : Application
 
 ## Credits {#credits}
 
-`ThemeManager` and this documentation is based on the work from [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) and [Styles](http://mahapps.com/guides/styles.html).
+`ThemeManager` and this documentation is based on the work from [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) and [Styles](https://mahapps.com/guides/styles.html).

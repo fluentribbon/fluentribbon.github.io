@@ -5,7 +5,7 @@ permalink: '/announcements/:title'
 title: Fluent.Ribbon
 tagline: ''
 description: ''
-url: http://fluentribbon.github.io
+url: https://fluentribbon.github.io
 
 paginate: 5
 paginate_path: '/announcements/:num'

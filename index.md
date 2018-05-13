@@ -25,7 +25,7 @@ As is with any open source project there are other contributors, you can see a f
 
 [license]: {{ site.data.github.repo }}/master/License.txt
 [github]: {{ site.data.github.repo }}
-[nuget]: http://www.nuget.org/packages/Fluent.Ribbon
+[nuget]: https://www.nuget.org/packages/Fluent.Ribbon
 [docs]: /documentation
 [gitter]: https://gitter.im/fluentribbon/Fluent.Ribbon
 [issues]: {{ site.data.github.repo }}/issues
