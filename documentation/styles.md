@@ -59,7 +59,7 @@ The fastest way is to specify the accent and theme resource in App.xaml.
 
 #### via ThemeManager {#thememanager}
 
-`Fluent.Ribbon` has a `ThemeManager` method that lets you change the accent and theme using the code-behind file. It can be done in 2 lines, like so:
+`Fluent.Ribbon` has a `ThemeManager` class that lets you change the accent and theme using the code-behind file. It can be done in 2 lines, like so:
 
 ```csharp
 public partial class App : Application
