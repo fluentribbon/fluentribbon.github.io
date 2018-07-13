@@ -50,7 +50,7 @@ The fastest way is to specify the accent and theme resource in App.xaml.
 
                 <!-- theme resource -->
                 <!-- change "BaseLight" to the theme you want -->
-                <ResourceDictionary Source="pack://application:,,,/Fluent;component/Themes/Accents/BaseLight.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Fluent;component/Themes/Colors/BaseLight.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
@@ -91,7 +91,7 @@ With `Fluent.Ribbon` you can have a different accent and theme for a `RibbonWind
             <!-- this window should be blue -->
             <ResourceDictionary Source="pack://application:,,,/Fluent;component/Themes/Accents/Blue.xaml" />
             <!-- and should use the light theme -->
-            <ResourceDictionary Source="pack://application:,,,/Fluent;component/Themes/Accents/BaseLight.xaml" />
+            <ResourceDictionary Source="pack://application:,,,/Fluent;component/Themes/Colors/BaseLight.xaml" />
         </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
 </Controls:RibbonWindow.Resources>
