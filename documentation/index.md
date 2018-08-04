@@ -22,4 +22,5 @@ title: Documentation
         - [Start screen](./controls/start-screen)
         - [Backstage](./controls/backstage)
 
-- [Styles](./styles)
+- [Styles (since version 7)](./styles_since_7)
+- [Styles (till version 6.1)](./styles_till_6_1)
