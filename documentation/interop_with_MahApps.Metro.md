@@ -14,6 +14,7 @@ https://github.com/fluentribbon/Fluent.Ribbon/blob/develop/Fluent.Ribbon.Showcas
 The most important steps you have to take to get Fluent.Ribbon working inside a `MetroWindow` are:
 - You should set `ShowSystemMenuOnRightClick` to `false` on your `MetroWindow` (otherwise the context menu on the ribbon won't work as expected)
 - You have to use this `TitleTemplate`
+
 ```xml
 <Metro:MetroWindow.TitleTemplate>
     <DataTemplate>
@@ -23,6 +24,7 @@ The most important steps you have to take to get Fluent.Ribbon working inside a 
 </Metro:MetroWindow.TitleTemplate>
 ```
 - Implement the following method which should be called after the window is loaded:
+
 ```csharp
 private void MahMetroWindow_Loaded(object sender, RoutedEventArgs e)
 {
@@ -31,8 +33,10 @@ private void MahMetroWindow_Loaded(object sender, RoutedEventArgs e)
     this.TitleBar.UpdateLayout();
 }
 ```
+
 - You can set `UseHighestAvailableAdornerLayer` on your `Backstage` to `false` (this enables showing MahApps.Metro style dialogs above the backstage)
 - You can create the following style to improve the `Backstage` interop in case you used `UseHighestAvailableAdornerLayer`:
+
 ```xml
 <Style x:Key="{x:Type Fluent:BackstageTabControl}"
         TargetType="{x:Type Fluent:BackstageTabControl}"
@@ -41,7 +45,9 @@ private void MahMetroWindow_Loaded(object sender, RoutedEventArgs e)
             Value="0" />
 </Style>
 ```
+
 - If you want to sync the themes being used implement:
+
 ```csharp
 // One time call to ensure initial sync
 SyncThemeManagers();
