@@ -7,8 +7,8 @@ The `StartScreen` makes it possible to resemble the view you get when starting W
 Let's fill the startscreen with content:
 
 ```xaml
-<!--Backstage-->
-<Fluent:Ribbon.Menu>
+<!--StartScreen-->
+<Fluent:Ribbon.StartScreen>
     <Fluent:StartScreen>
         <Fluent:StartScreenTabControl>
             <Fluent:StartScreenTabControl.LeftContent>
@@ -29,7 +29,7 @@ Let's fill the startscreen with content:
             </Fluent:StartScreenTabControl.RightContent>
         </Fluent:StartScreenTabControl>
     </Fluent:StartScreen>
-</Fluent:Ribbon.Menu>
+</Fluent:Ribbon.StartScreen>
 ```
 
 If you want to show the `StartScreen` on application startup you have to set it's `IsOpen` to `True`.
