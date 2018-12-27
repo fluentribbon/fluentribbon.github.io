@@ -19,7 +19,7 @@ The most important steps you have to take to get Fluent.Ribbon working inside a 
 <Metro:MetroWindow.TitleTemplate>
     <DataTemplate>
         <Fluent:RibbonTitleBar x:Name="RibbonTitleBar"                                   
-                                Header="{Binding ElementName=window, Path=Title}"/>
+                                Header="{Binding Path=Title, RelativeSource={RelativeSource AncestorType=Window}}"/>
     </DataTemplate>
 </Metro:MetroWindow.TitleTemplate>
 ```
