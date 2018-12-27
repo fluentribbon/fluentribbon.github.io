@@ -13,6 +13,11 @@ Write-Host "`$env:JEKYLL_SITE_DIR: $env:JEKYLL_SITE_DIR"
 Write-Host "`$env:DOCKER_IMAGE_NAME: $env:DOCKER_IMAGE_NAME"
 Write-Host "`$volume: $volume"
 
+#$dockerCommand = "ls && bundle update && jekyll --version"
+$dockerCommand = "ls && bundle install && jekyll --version && ruby --version && jekyll serve --watch --host=0.0.0.0 --incremental --unpublished --future"
+
+Write-Host $dockerCommand
+
 docker run `
 --interactive `
 --rm `
@@ -21,4 +26,4 @@ docker run `
 --workdir /website `
 --publish 4444:4000 `
 $env:DOCKER_IMAGE_NAME `
-bash -c "ls && bundle install && jekyll --version && ruby --version && jekyll serve --watch --host=0.0.0.0 --incremental --unpublished --future"
+bash -c $dockerCommand
