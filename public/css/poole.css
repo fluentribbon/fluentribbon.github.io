@@ -113,7 +113,10 @@ strong {
 
 /* Lists */
 ul, ol, dl {
-  margin-top: 0;
+  margin-top: 0;  
+}
+
+:not(li) > ul > li {
   margin-bottom: 1rem;
 }
 
