@@ -3,7 +3,7 @@ layout: page
 title: Ribbon Background
 ---
 
-Changing the background of the `Ribbon` can't be done by simple changing the `Background` property.
+Changing the background of the `Ribbon` can't be done by simply changing the `Background` property.
 You have to, at least, overwrite the following resources to change the background of the `Ribbon`:
 
 ```xaml
