@@ -19,3 +19,4 @@ Thumbs.db
 .cache
 .project
 .settings
+.jekyll-metadata
