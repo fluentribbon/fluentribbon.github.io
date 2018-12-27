@@ -31,7 +31,7 @@
         {% assign crumbs = page.url | replace:site.url,'' | replace:'/index.html','' | split: '/' %}
         {% if crumbs.size > 1 %}
             {% for crumb in crumbs offset: 1 %}
-                {% assign currentTitle = crumb | capitalize | replace:'-',' ' | remove:'.html' %}
+                {% assign currentTitle = crumb | capitalize | replace:'-',' ' | replace:'_',' ' | remove:'.html' %}
                 <li>
                     <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ currentTitle }}</a>
                 </li>
