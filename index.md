@@ -23,7 +23,7 @@ The core contributors to {{ site.data.project.name }} are:
 {% endfor %}
 As is with any open source project there are other contributors, you can see a full list on [GitHub][contributors].
 
-[license]: {{ site.data.github.repo }}/master/License.txt
+[license]: {{ site.data.github.repo }}/blob/master/License.txt
 [github]: {{ site.data.github.repo }}
 [nuget]: https://www.nuget.org/packages/Fluent.Ribbon
 [docs]: /documentation
