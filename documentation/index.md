@@ -23,8 +23,11 @@ title: Documentation
         - [Start screen](./controls/start-screen)
         - [Backstage](./controls/backstage)
 
-- Styles
-    - [Styles (since version 7)](./styles_since_7)
-    - [Styles (till version 6.1)](./styles_till_6_1)
+- Styles / Themes
+    - [Styles / Themes (version 8)](./styles_since_8)
+
+- Styles (older versions)
+    - [Styles (version 7)](./styles_since_7)
+    - [Styles (version 6.1)](./styles_sice_6_1)
 
 - [Interop with MahApps.Metro](./interop_with_MahApps.Metro)
