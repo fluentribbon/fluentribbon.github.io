@@ -12,7 +12,7 @@ To setup the required resources you first have to add the following code to your
 </Application.Resources>
 ```
 
-After you have added the required resources you can start creating your first window containing a ribbon by creating a new window and then change the xaml code of that windo to the following.
+After you have added the required resources you can start creating your first window containing a ribbon by creating a new window and then change the xaml code of that window to the following.
 You can fully reuse the provided code if you name your window "MyFirstWindow" and your project "MyFirstRibbonProject".
 If you happen to choose different names you have to adjust the names "MyFirstRibbonProject" and "MyFirstWindow" to your desired names.
 
